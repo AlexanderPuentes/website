@@ -1,0 +1,217 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #5a2b73;
+  height: 60px;
+  padding: 0px;
+}
+
+header input {
+  position: relative;
+  left: 90px;
+  top: 5px;
+}
+
+header p {
+  color: #4A0B46;
+  position: relative;
+  left: 80px;
+  top: 6px;
+  display: inline-block;
+}
+
+.top img {
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+}
+
+/*.bottom {
+  background-color: #E8E7E8;
+}*/
+
+.bottom-left {
+  background-color: #E8E7E8;
+  margin: auto;
+  position: sticky;
+  width: 80%;
+  /*display: grid;*/
+}
+
+.bottom-right {
+  /*background-color: #E8E7E8;*/
+  margin: auto;
+  position: sticky;
+  width: 80%;
+}
+
+.articles {
+  background-color: #F2F1F1;
+  float: left;
+  width: 50%;
+  margin: 0 auto;
+  overflow: auto;
+  height: 85vh;
+  padding: 30px;
+}
+
+.articles h3 {
+  margin: 4% 10% 0% 0%;
+}
+
+.articles h4 {
+  margin: auto;
+}
+
+.reports {
+  margin: -2% 7% 13% -1%;
+}
+
+#stories {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  float: left;
+}
+
+#stories button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+#stories button:hover {
+    background-color: #ddd;
+}
+
+.articles p {
+  color: grey;
+}
+
+#stories {
+  color: white;
+  background-color: grey;
+}
+
+header #Y {
+  width: 5%;
+  position: fixed;
+  height: 13%;
+}
+
+header #Z {
+  width: 5%;
+  position: fixed;
+  top: 59px;
+}
+
+.inbox {
+  background-color: #F2F1F1;
+  float: right;
+  width: 50%;
+  overflow: auto;
+  color: purple;
+}
+
+.inbox p {
+  margin: 13% 0% 1% 0%;
+  width: auto;
+  margin-top: 15px;
+}
+
+.ad {
+  background-color: #f2f1f1;
+  float: right;
+  margin: auto;
+  padding: 2%;
+  width: 50%;
+}
+
+.scoreboard {
+  background-color: #F2F1F1;
+  overflow: auto;
+  width: 50%;
+  float: right;
+  margin: auto;
+  padding-left: 4%;
+  height: 35vh;
+}
+
+.scoreboard li {
+  margin: 12px auto -7px 15px;
+  list-style-type: none;
+}
+
+.scoreboard h4 {
+  color: grey;
+}
+
+.special-padding {
+  padding: 0 15px;
+}
+
+#sports {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  float: left;
+  margin: 0% 0% 0% 1%;
+}
+
+#sports button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+#sports button:hover {
+  color: white;
+  background-color: grey;
+}
+
+#In {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  float: left;
+}
+
+#In button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 6px 100% 6px 5px;
+  transition: 0.3s;
+}
+
+#In button:hover {
+  color: white;
+  background-color: grey;
+}
+
+.scoreboard h6 {
+  margin: 0% 0% 0% 1%;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
