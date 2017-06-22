@@ -33,14 +33,15 @@ header p {
   display: block;
 }
 
-/*.bottom {
-  background-color: #E8E7E8;
-}*/
+.bottom {
+  display: grid;
+  border: 2px solid purple;
+}
 
 .bottom-left {
   background-color: #E8E7E8;
   margin: auto;
-  position: sticky;
+  /*position: sticky;*/
   width: 80%;
   /*display: grid;*/
 }
@@ -48,7 +49,7 @@ header p {
 .bottom-right {
   /*background-color: #E8E7E8;*/
   margin: auto;
-  position: sticky;
+  position: relative;
   width: 80%;
 }
 
@@ -74,14 +75,14 @@ header p {
   margin: -2% 7% 13% -1%;
 }
 
-#stories {
+.stories {
   overflow: hidden;
   border: 1px solid #ccc;
   background-color: #f1f1f1;
   float: left;
 }
 
-#stories button {
+.stories button {
   background-color: inherit;
   float: left;
   border: none;
@@ -91,7 +92,7 @@ header p {
   transition: 0.3s;
 }
 
-#stories button:hover {
+.stories button:hover {
     background-color: #ddd;
 }
 
@@ -99,7 +100,7 @@ header p {
   color: grey;
 }
 
-#stories {
+.stories {
   color: white;
   background-color: grey;
 }
@@ -161,7 +162,7 @@ header #Z {
   padding: 0 15px;
 }
 
-#sports {
+.sports {
   overflow: hidden;
   border: 1px solid #ccc;
   background-color: #f1f1f1;
@@ -169,7 +170,7 @@ header #Z {
   margin: 0% 0% 0% 1%;
 }
 
-#sports button {
+.sports button {
   background-color: inherit;
   float: left;
   border: none;
@@ -179,7 +180,7 @@ header #Z {
   transition: 0.3s;
 }
 
-#sports button:hover {
+.sports button:hover {
   color: white;
   background-color: grey;
 }
